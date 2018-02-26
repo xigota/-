@@ -13,7 +13,7 @@ const g = svg
 
 const cluster = d3.cluster().size([360, width / 2 - 120]);
 
-d3.json("flare.json", (error, data) => {
+d3.json("modules.json", (error, data) => {
   if (error) throw error;
 
   const root = d3
